@@ -90,12 +90,14 @@ public class pupilaje extends HttpServlet {
   			Statement smt=conn.createStatement();
   			if(nombre.length()!=0 && nacimiento.length()!=0  && herrado.length()!=0  && veterinario.length()!=0  && desparasitado.length()!=0  && pienso.length()!=0 ) {
   			actualizar=conn.prepareStatement(
-  					"update `datos_pupilaje` set fecha_nacimiento='"+nacimiento+"',fecha_herrado='"+herrado+"',fecha_veterinario='"+veterinario+"',fecha_desparasitado='"+desparasitado+"',fecha_pienso='"+pienso+"'where id='"+nombre+"';"
+  					"update `datos_pupilaje` set fecha_nacimiento='"+nacimiento+"',fecha_herrado='"+herrado+"',fecha_veterinario='"+veterinario+"',fecha_desparasitado='"+desparasitado+"',fecha_pienso='"+pienso+"'where id="?";"
   					);
+				actualizar.setString(1,nombre);
   			actualizar.executeUpdate();
   			JOptionPane.showMessageDialog(null, "se ha actualizado");
   			String select=
-  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id='"+nombre+"';";
+  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id="?";";
+				actualizar.setString(1,nombre);
   			obtener=smt.executeQuery(select);
   			while(obtener.next()) {
   				nacimiento2=obtener.getString("fecha_nacimiento");
@@ -126,7 +128,8 @@ public class pupilaje extends HttpServlet {
   		}else if( nacimiento.length()==0 && herrado.length()==0 && veterinario.length()==0 && desparasitado.length()==0 && pienso.length()==0) {
 				JOptionPane.showMessageDialog(null, "ha entrado aqui");
 				String select2=
-	  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id='"+nombre+"';";
+	  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id="?";";
+				actualizar.setString(1,nombre);
 	  			obtener=smt.executeQuery(select2);
 	  			while(obtener.next()) {
 	  				nacimiento2=obtener.getString("fecha_nacimiento");
