@@ -1,0 +1,15 @@
+127.0.0.1 - - [15/Apr/2023:16:55:30 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:31 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:31 +0200] "GET /proyecto/pagina_principal.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:36 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:36 +0200] "GET /proyecto/pagina_principal.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:36 +0200] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:37 +0200] "GET /proyecto/pagina_compra.jsp HTTP/1.1" 200 1953
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:38 +0200] "GET /proyecto/pagina_herramientas.jsp HTTP/1.1" 200 1921
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:38 +0200] "GET /proyecto/pagina_herramientas.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:38 +0200] "GET /proyecto/img/cepillo.jpeg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:38 +0200] "GET /proyecto/img/cepillo_crines.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:38 +0200] "GET /proyecto/img/rasqueta.jpeg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:38 +0200] "GET /proyecto/img/limpia_cascos.jpeg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:38 +0200] "GET /proyecto/img/bruza.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2023:16:55:38 +0200] "GET /proyecto/pagina_compra.jsp HTTP/1.1" 200 1953

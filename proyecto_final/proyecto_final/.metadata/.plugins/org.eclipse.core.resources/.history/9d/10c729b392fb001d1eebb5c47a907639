@@ -1,0 +1,182 @@
+*{
+ border:2px solid red;
+ } 
+@media screen and (max-width: 780px) {
+  /* Estilos para pantallas más pequeñas */
+  body {
+    background-color: #f9ffae;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* titulo con el resto de redirecciones al resto de páginas */
+  h1 {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    width: 100%;
+  }
+
+  a:active {
+  background-color: #2100B3;
+  }
+
+  nav li:hover {
+  background-color: #00B349;
+  }
+
+  li {
+    margin-bottom: 10px;
+    display: block;
+    padding: 5px;
+   background-color: #2DCDE6 ;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;	
+  }
+ 
+  #titulo {
+    margin-bottom: 20px;
+  }
+
+  /* login con la foto del caballo */
+  #log {
+    position: absolute;
+    margin: 10px auto;
+    z-index: 1000;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  /* carrusel */
+  #fotos {
+    position: absolute;
+    margin: 20px auto;
+    width: 90%;
+    border: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  #foto1, #foto2, #foto3, #foto4 {
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  #banner{
+	margin-top:70px;
+    background-color: #f9ffae;
+    text-align: center;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 790px) {
+  /* Estilos para pantallas más grandes */
+  body {
+    background-image:url("img/Screenshot_20220601-110802_Instagram.jpg");
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* titulo con el resto de redirecciones al resto de páginas */
+  h1 {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    width: 100%;
+  }
+	a:active {
+  color: #3104b4;
+}
+
+nav li:hover {
+  color: #07ad47;
+}
+
+ li {
+ margin-bottom:10px;
+  display: inline-flex;
+  padding: 5px 15px;
+  background-color: #f9ffae;
+  border: 1px solid #000;
+  text-align: center;
+  color: black;
+}
+#titulo {
+    margin-bottom: 1500px;
+  }
+
+  /* login con la foto del caballo */
+#log{
+position: absolute;
+left: 400px;
+bottom: 500px;
+z-index: 1000;
+background-size: cover;
+width: 90px;
+height: 90px;
+border-radius: 50%;
+margin: 10px;
+}
+
+/* carrusel */
+#fotos {
+position: absolute;
+top: 200px;
+right: 100px;
+width: 90%;
+border: 3px;
+padding: 130px 10px 10px 600px;
+box-sizing: border-box;
+display: block;
+}
+
+#foto1 {
+/* margin: 10px; */
+width: 50%;
+}
+
+#foto2 {
+/* margin: 10px; */
+width: 50%;
+}
+
+#foto3 {
+/* margin: 10px ; */
+width: 50%;
+}
+
+#foto4 {
+/* margin: 10px; */
+width: 50%;
+}
+
+#banner {
+position: absolute;
+margin-top: 70px;
+background-color: #f9ffae;
+top: 800px;
+text-align: center;
+color: black;
+padding: 20px;
+font-size: 30px;
+}
+
+

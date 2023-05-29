@@ -1,0 +1,12 @@
+<script>
+  $(function() {
+    // Inicializa el calendario
+    $("#fecha").datepicker({
+      dateFormat: "yy-mm-dd", // Formato de fecha
+      onSelect: function(dateText, inst) {
+        // Asigna la fecha seleccionada al campo de entrada
+        $("#fecha").val(dateText);
+      }
+    });
+  });
+</script>

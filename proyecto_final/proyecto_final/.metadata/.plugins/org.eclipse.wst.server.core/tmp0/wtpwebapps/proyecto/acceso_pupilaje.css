@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+@media screen and (max-width: 780px) {
+body {
+ background-image:url("img/fondo-de-caballos-jugando (1).jpg");
+  
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#cuestionario{
+bottom: 125px;
+}
+
+}
+@media screen and (min-width:1900px) {
+body{
+  background-image: url("img/fondo_login.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0; /* Asegura que no haya margen en el cuerpo de la página */
+  padding: 0; /* Asegura que no haya relleno en el cuerpo de la página */
+  text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    left: 50px;
+    
+}
+
+#cuestionario{
+position: relative;
+top: 250px;
+right: 50px;
+font-size: 27px;
+color: white;
+}
+.button{
+ background-color: #2DCDE6 ;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;	
+}
+.button:hover {
+  /* Estilos cuando el mouse está sobre el botón */
+  background-color: #00B349;
+  }
+  .button:active {
+  /* Estilos cuando el botón está presionado */
+  background-color: #2100B3;
+}
+
+  }
+@media screen and (max-width:1300px) {
+body{
+  background-image: url("img/fondo_login.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0; /* Asegura que no haya margen en el cuerpo de la página */
+  padding: 0; /* Asegura que no haya relleno en el cuerpo de la página */
+  text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    left: 50px;
+    
+}
+
+#cuestionario{
+position: relative;
+top: 450px;
+right: 15px;
+font-size: 25px;
+}
+
+  }

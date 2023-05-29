@@ -1,0 +1,9 @@
+127.0.0.1 - - [22/May/2023:18:27:44 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [22/May/2023:18:27:44 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [22/May/2023:18:27:44 +0200] "GET /proyecto/pagina_principal.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/May/2023:18:27:49 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [22/May/2023:18:27:49 +0200] "GET /proyecto/pagina_principal.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/May/2023:18:27:50 +0200] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [22/May/2023:18:28:47 +0200] "GET /proyecto/pagina_inicio_formulario.jsp HTTP/1.1" 200 483
+0:0:0:0:0:0:0:1 - - [22/May/2023:18:28:47 +0200] "GET /proyecto/pagina_inicio_formulario.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/May/2023:18:28:47 +0200] "GET /proyecto/img/fondo-de-caballos-jugando%20(10).jpg HTTP/1.1" 304 -

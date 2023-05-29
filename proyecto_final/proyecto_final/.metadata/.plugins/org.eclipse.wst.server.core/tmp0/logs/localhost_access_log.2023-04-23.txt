@@ -1,0 +1,7 @@
+127.0.0.1 - - [23/Apr/2023:16:47:19 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [23/Apr/2023:16:47:20 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [23/Apr/2023:16:47:26 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [23/Apr/2023:16:47:27 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [23/Apr/2023:16:47:27 +0200] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [23/Apr/2023:16:47:30 +0200] "GET /proyecto/pagina_caballos.jsp HTTP/1.1" 200 4560
+0:0:0:0:0:0:0:1 - - [23/Apr/2023:16:47:30 +0200] "GET /proyecto/1.js HTTP/1.1" 404 704

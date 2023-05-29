@@ -1,0 +1,5 @@
+127.0.0.1 - - [24/Apr/2023:17:02:03 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [24/Apr/2023:17:02:04 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [24/Apr/2023:17:02:11 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [24/Apr/2023:17:02:12 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [24/Apr/2023:17:02:12 +0200] "GET /favicon.ico HTTP/1.1" 404 698

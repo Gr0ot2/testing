@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+body {
+  background-image: url("img/fondo-de-caballos-jugando (10).jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  left: 50px;
+}
+
+#cuestionario {
+  position: relative;
+  top: 454px;
+  right: 50px;
+  font-size: 27px;
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    background-image: url("img/fondo-de-caballos-jugando (1).jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    left: 50px;
+  }
+  
+  #cuestionario {
+    position: relative;
+    top: 450px;
+    right: 15px;
+    font-size: 25px;
+  }
+}

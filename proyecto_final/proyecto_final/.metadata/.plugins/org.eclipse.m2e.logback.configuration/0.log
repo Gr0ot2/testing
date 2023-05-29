@@ -1,0 +1,1059 @@
+2023-03-17 17:12:43,886 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-17 17:12:50,834 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-17 17:12:51,396 [Worker-2: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-19 13:14:12,443 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-19 13:14:22,781 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-19 13:14:23,772 [Worker-2: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-20 09:39:24,703 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-20 09:39:35,649 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-20 09:39:36,536 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-20 14:03:56,043 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-20 14:04:01,883 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-20 14:04:02,311 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-20 16:23:03,483 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-20 16:23:10,142 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-20 16:23:10,824 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-25 15:30:50,814 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-25 15:31:01,477 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-25 15:31:19,793 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-03-25 18:20:01,728 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-25 18:20:09,989 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-25 18:20:12,124 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-26 11:59:32,391 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-26 11:59:39,939 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-26 11:59:41,767 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-26 14:38:53,500 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-26 14:39:03,055 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-26 14:39:09,830 [Worker-2: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-26 15:22:41,883 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-26 15:22:52,049 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-26 15:23:16,316 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-03-29 18:39:23,424 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-03-29 18:39:31,056 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-29 18:39:31,923 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-02 14:55:13,040 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-02 14:55:24,285 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-02 14:55:29,408 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-02 17:52:48,878 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-02 17:52:57,754 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-02 17:52:58,940 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-04 15:38:23,118 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-04 15:38:34,177 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-04 15:38:35,042 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-10 09:49:09,709 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-10 09:49:15,067 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-10 09:49:15,253 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-04-10 16:04:40,265 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-10 16:04:49,893 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-10 16:04:50,391 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-12 17:05:03,942 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-12 17:05:15,417 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-12 17:05:16,224 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-13 11:19:14,805 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-13 11:19:29,788 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-13 11:19:30,775 [Worker-1: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-13 12:57:51,802 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-13 12:58:00,738 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-13 12:58:01,286 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-13 18:07:45,525 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-13 18:07:50,850 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-13 18:07:51,477 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-14 08:14:40,132 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-14 08:14:49,114 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-14 08:14:49,608 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-14 17:45:15,769 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-14 17:45:26,082 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-14 17:45:26,626 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-15 16:54:59,235 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-15 16:55:06,656 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-15 16:55:07,058 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-16 13:20:26,285 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-16 13:20:38,010 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-16 13:20:38,579 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-16 16:17:48,608 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-16 16:17:55,121 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-16 16:17:55,540 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-17 17:19:11,405 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-17 17:19:24,495 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-17 17:19:25,151 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-21 18:00:11,612 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-21 18:00:20,156 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-21 18:00:20,740 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-22 10:13:11,816 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-22 10:13:23,710 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-22 10:13:24,332 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-22 16:27:13,451 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-22 16:27:21,939 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-22 16:27:22,493 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-22 18:30:50,271 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-22 18:37:26,391 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-22 18:37:26,571 [Worker-10: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-23 16:46:33,738 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-23 16:46:41,247 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-23 16:46:41,872 [Worker-3: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-24 17:00:43,414 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-24 17:00:52,667 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-24 17:00:53,205 [Worker-2: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-26 14:12:35,829 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-26 14:12:46,435 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-26 14:12:47,371 [Worker-2: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-26 14:13:05,573 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-26 14:13:11,473 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-26 14:13:12,263 [Worker-3: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-27 11:21:09,787 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-27 11:21:15,796 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-27 11:21:16,456 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-27 13:08:16,545 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-27 13:08:26,448 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-27 13:08:27,015 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-27 17:39:10,487 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-27 17:39:18,461 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-27 17:39:18,960 [Worker-3: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-04-28 10:42:25,369 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-04-28 10:42:30,735 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-28 10:42:31,201 [Worker-3: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-03 16:41:10,082 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-03 16:41:24,989 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-03 16:41:25,723 [Worker-6: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-05 17:42:15,533 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-05 17:42:25,220 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-05 17:42:25,903 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-06 10:28:51,716 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-06 10:29:04,777 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-06 10:29:05,478 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-06 16:57:25,343 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-06 16:57:33,649 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-06 16:57:34,187 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-07 20:18:05,164 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-07 20:18:14,712 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-07 20:18:15,184 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-08 17:49:24,532 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-08 17:49:34,338 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-08 17:49:35,263 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-10 18:13:10,339 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-10 18:13:25,039 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-10 18:13:26,031 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-11 11:19:41,328 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-11 11:19:51,367 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-11 11:19:51,878 [Worker-6: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-11 13:43:56,672 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-11 13:44:13,035 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-11 13:44:13,820 [Worker-1: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-11 17:46:16,738 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-11 17:46:31,938 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-11 17:46:32,889 [Worker-6: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-12 13:52:05,748 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-12 13:52:16,729 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-12 13:52:17,265 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-14 11:08:18,991 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-14 11:08:24,774 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-14 11:08:25,025 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-05-16 16:53:14,561 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-16 16:53:24,298 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-16 16:53:24,838 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-18 17:10:13,988 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-18 17:10:29,889 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-18 17:10:30,647 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-19 09:34:35,732 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-19 09:34:45,717 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-19 09:34:46,475 [Worker-6: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-20 13:07:19,593 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-20 13:07:30,946 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-20 13:07:31,634 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-20 17:55:19,496 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-20 17:55:27,351 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-20 17:55:27,943 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-22 18:26:46,693 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-22 18:26:57,776 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-22 18:26:58,403 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-24 08:29:39,831 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-24 08:29:47,680 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-24 08:29:48,144 [Worker-3: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-25 10:53:07,042 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-25 10:53:20,241 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-25 10:53:21,607 [Worker-1: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-25 11:41:45,383 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-25 11:41:51,293 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-25 11:41:52,156 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-25 13:41:55,578 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-25 13:42:03,465 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-25 13:42:04,635 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-26 08:19:17,995 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2023-05-26 08:19:26,948 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-26 08:19:27,396 [Worker-4: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-27 08:51:45,067 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-27 08:51:45,588 [Worker-1: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-27 14:08:12,939 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-27 14:08:13,759 [Worker-1: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-27 15:19:51,502 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-27 15:19:52,526 [Worker-5: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2023-05-29 08:02:19,593 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-29 08:02:20,688 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\LENOVO\.tooling\gradle\versions.json (Acceso denegado)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[na:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[na:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[na:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117) ~[na:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]

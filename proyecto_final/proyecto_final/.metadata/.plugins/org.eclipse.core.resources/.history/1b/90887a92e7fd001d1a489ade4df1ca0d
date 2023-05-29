@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+ *{
+	 border:2px solid red;
+	 }
+@media screen and (min-width: 780px) {
+body {
+ background-image:url("img/Screenshot_20220601-110802_Instagram.jpg");
+  
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+display: grid;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-style: oblique;
+	width: 100%;
+}
+#race{
+	color: white;
+	font-style: oblique;
+	width: 100%;
+}
+#layer{
+	color: white;
+	font-style: oblique;
+	width: 100%;
+}
+

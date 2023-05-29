@@ -1,0 +1,13 @@
+127.0.0.1 - - [07/May/2023:20:18:43 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:18:43 +0200] "GET /proyecto/prueba.jsp HTTP/1.1" 200 395
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:18:50 +0200] "GET /proyecto/prueba.jsp HTTP/1.1" 200 395
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:18:51 +0200] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:18:57 +0200] "GET /proyecto/prueba?1=alta&enviar=Enviar HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:18:57 +0200] "GET /proyecto/prueba2.jsp HTTP/1.1" 200 257
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:18:57 +0200] "GET /proyecto/[B@75cedf01 HTTP/1.1" 400 637
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:28:11 +0200] "GET /proyecto/prueba2.jsp HTTP/1.1" 200 265
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:28:11 +0200] "GET /proyecto/prueba.jsp HTTP/1.1" 200 395
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:28:15 +0200] "GET /proyecto/prueba?1=alta&enviar=Enviar HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:28:15 +0200] "GET /proyecto/prueba2.jsp HTTP/1.1" 200 264
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:28:15 +0200] "GET /proyecto/[B@b4bc238 HTTP/1.1" 400 637
+0:0:0:0:0:0:0:1 - - [07/May/2023:20:28:24 +0200] "GET /proyecto/prueba2?1=mostrar&mostrar=Enviar HTTP/1.1" 200 53

@@ -1,0 +1,618 @@
+	 *{
+	 border:2px solid red;
+	 }
+@media screen and (min-width: 780px) {
+body {
+ background-image:url("img/Screenshot_20220601-110802_Instagram.jpg");
+  
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+display: grid;
+}
+
+/* titulo con el resto de redirecciones al resto de páginas */
+h1 {
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  width: 100%;
+}
+
+a:active {
+  color: #3104b4;
+}
+
+nav li:hover {
+  color: #07ad47;
+}
+
+ li {
+ margin-bottom:10px;
+  display: inline-flex;
+  padding: 5px 15px;
+  background-color: #f9ffae;
+  border: 1px solid #000;
+  text-align: center;
+  color: black;
+}
+
+#titulo{
+	margin-bottom:1500px;
+}
+/* login con la foto del caballo */
+#log {
+  position: relative;
+  right: 850px;
+  bottom:1689px;
+  z-index: 1000;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+}
+#photos{
+	position: relative;
+	bottom:1550px;
+	max-height: 30vh;
+}
+/*cuadro de marijuli*/
+#photo_marijuli{
+position: relative;
+width:350px;
+height:300px;
+top: 0px;
+left:300px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de marijuli*/
+#photo1{
+	padding:0px 0px 0px 0px;
+	width: 250px;
+}
+/*texto de marijuli*/
+#marijuli{
+	color: white;
+}
+/*cuadro de chicuelo*/
+#photo_chicuelo{
+position: relative;
+width:300px;
+height:300px;
+bottom:355px;
+left:750px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de chicuelo*/
+#photo2{
+	width: 250px;
+}
+/*texto de chicuelo*/
+#chicuelo{
+	color: white;
+}
+/*cuadro de leticia*/
+#photo_leticia{
+position: relative;
+width:300px;
+height:300px;
+bottom:710px;
+left:1200px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de leticia*/
+#photo3{
+	width: 250px;
+}
+/*texto de leticia*/
+#leticia{
+	color: white;
+}
+/*cuadro de pia*/
+#photo_pia{
+position: relative;
+width:300px;
+height:300px;
+bottom:650px;
+left:300px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de pia*/
+#photo4{
+	width: 250px;
+}
+/*texto de pia*/
+#pia{
+	color: white;
+}
+/*cuadro de valentina*/
+#photo_valentina{
+position: relative;
+width:300px;
+height:300px;
+bottom:1000px;
+left:750px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de valentina*/
+#photo5{
+	width: 250px;
+}
+/*texto de valentina*/
+#valentina{
+	color: white;
+}
+/*cuadro de fermin*/
+#photo_fermin{
+position: relative;
+width:300px;
+height:300px;
+bottom:1350px;
+left:1205px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de fermin*/
+#photo6{
+	width: 250px;
+}
+/*texto de fermin*/
+#fermin{
+	color: white;
+}
+/*cuadro de tierra*/
+#photo_tierra{
+position: relative;
+width:300px;
+height:300px;
+bottom:1300px;
+left:300px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de tierra*/
+#photo7{
+	width: 250px;
+}
+/*texto de tierra*/
+#tierra{
+	color: white;
+}
+/*cuadro de africa*/
+#photo_africa{
+position: relative;
+width:300px;
+height:300px;
+bottom:1650px;
+left:750px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de africa*/
+#photo8{
+	width: 250px;
+}
+/*texto de africa*/
+#africa{
+	color: white;
+}
+/*cuadro de bombon*/
+#photo_bombon{
+position: relative;
+width:300px;
+height:300px;
+bottom:2000px;
+left:1205px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de bombon*/
+#photo9{
+	width: 250px;
+}
+/*texto de bombon*/
+#bombon{
+	color: white;
+}
+/*cuadro de armonia*/
+#photo_armonia{
+position: relative;
+width:300px;
+height:300px;
+bottom:1960px;
+left:300px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de armonia*/
+#photo10{
+	width: 250px;
+}
+/*texto de armonia*/
+#armonia{
+	color: white;
+}
+/*cuadro de gucci*/
+#photo_gucci{
+position: relative;
+width:300px;
+height:300px;
+bottom:2315px;
+left:750px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*photo de gucci*/
+#photo11{
+	width: 250px;
+}
+/*texto de gucci*/
+#gucci{
+	color: white;
+}
+}
+@media screen and (max-width: 1280px) {
+  body {
+ background-image:url("img/Screenshot_20220601-110802_Instagram.jpg");
+      
+    background-position: center center;
+    
+    /* Para que la imagen de fondo no se repita */
+    
+    background-repeat: no-repeat;
+    
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    
+    background-attachment: fixed;
+    
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    
+    background-size: cover;
+    /* text-decoration: none;
+    padding: 20px;
+    font-size: 20px;*/
+    text-align: center; 
+    width: 80%;
+    margin: auto;
+    }
+    
+    /* titulo con el resto de redirecciones al resto de páginas */
+    h1 {
+      text-align: center;
+      color: white;
+      font-style: oblique;
+      width: 110%;
+    }
+    
+    a:active {	
+      color: #3104b4;
+    }
+    
+    nav li:hover {
+      color: #07ad47;
+    }
+    
+    /* #titulo {
+      text-decoration: none;
+      margin: 0;
+      padding: 20px;
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+      height: 15%;
+      background-color: transparent;
+    } */
+    
+     li {
+      display: inline-flex;
+      padding: 5px 5px;
+      background-color: #f9ffae;
+      border: 1px solid #000;
+      text-align: center;
+      color: black;
+    }
+    
+    /* login con la foto del caballo */
+     #log {
+      position: relative;
+      right: 550px;
+      bottom: 1690px;
+      z-index: 1000;
+      background-image: url(img/caballo.jpg);
+      background-size: cover;
+      border-radius: 50%;
+      margin: 10px;
+    }
+  /* carrusel */
+  #photos{
+	position: relative;
+	bottom:1550px;
+	max-height: 30vh;
+}
+/*cuadro de marijuli*/
+#photo_marijuli{
+position: relative;
+width:300px;
+height:300px;
+top: 0px;
+left:100px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de marijuli*/
+#photo1{
+	padding:15px 0px 0px 0px;
+	width: 300px;
+}
+/*texto de marijuli*/
+#marijuli{
+	color: white;
+}
+/*cuadro de chicuelo*/
+#photo_chicuelo{
+position: relative;
+width:300px;
+height:300px;
+bottom:355px;
+left:600px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de chicuelo*/
+#photo2{
+	padding:15px 0px 0px 0px;
+	width: 250px;
+}
+/*texto de chicuelo*/
+#chicuelo{
+	color: white;
+}
+/*cuadro de leticia*/
+#photo_leticia{
+position: relative;
+width:300px;
+height:300px;
+bottom:300px;
+left:100px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de leticia*/
+#photo3{
+	width: 250px;
+}
+/*texto de leticia*/
+#leticia{
+	color: white;
+}
+/*cuadro de pia*/
+#photo_pia{
+position: relative;
+width:300px;
+height:300px;
+bottom:655px;
+left:600px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de pia*/
+#photo4{
+	width: 250px;
+}
+/*texto de pia*/
+#pia{
+	color: white;
+}
+/*cuadro de valentina*/
+#photo_valentina{
+position: relative;
+width:300px;
+height:300px;
+bottom:620px;
+left:100px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de valentina*/
+#photo5{
+	width: 250px;
+}
+/*texto de valentina*/
+#valentina{
+	color: white;
+}
+/*cuadro de fermin*/
+#photo_fermin{
+position: relative;
+width:300px;
+height:300px;
+bottom:975px;
+left:600px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de fermin*/
+#photo6{
+	width: 250px;
+}
+/*texto de fermin*/
+#fermin{
+	color: white;
+}
+/*cuadro de tierra*/
+#photo_tierra{
+position: relative;
+width:300px;
+height:300px;
+bottom:935px;
+left:100px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de tierra*/
+#photo7{
+	width: 250px;
+}
+/*texto de tierra*/
+#tierra{
+	color: white;
+}
+/*cuadro de africa*/
+#photo_africa{
+position: relative;
+width:300px;
+height:300px;
+bottom:1293px;
+left:600px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de africa*/
+#photo8{
+	width: 250px;
+}
+/*texto de africa*/
+#africa{
+	color: white;
+}
+/*cuadro de bombon*/
+#photo_bombon{
+position: relative;
+width:300px;
+height:300px;
+bottom:1255px;
+left:100px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de bombon*/
+#photo9{
+	width: 250px;
+}
+/*texto de bombon*/
+#bombon{
+	color: white;
+}
+/*cuadro de armonia*/
+#photo_armonia{
+position: relative;
+width:300px;
+height:300px;
+bottom:1610px;
+left:600px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*foto de armonia*/
+#photo10{
+	width: 250px;
+}
+/*texto de armonia*/
+#armonia{
+	color: white;
+}
+/*cuadro de gucci*/
+#photo_gucci{
+position: relative;
+width:300px;
+height:300px;
+bottom:1575px;
+left:100px;
+padding: 5px 5px 0px 5px;
+border-top: 25px solid #141414;
+border-left: 25px solid #141414;
+border-right: 25px solid #141414;
+border-bottom: 25px solid #141414;
+}
+/*photo de gucci*/
+#photo11{
+	width: 250px;
+}
+/*texto de gucci*/
+#gucci{
+	color: white;
+}
+}

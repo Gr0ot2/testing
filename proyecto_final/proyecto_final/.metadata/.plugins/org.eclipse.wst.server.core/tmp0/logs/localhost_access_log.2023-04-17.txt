@@ -1,0 +1,15 @@
+127.0.0.1 - - [17/Apr/2023:17:20:08 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:20:09 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:20:14 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:20:15 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1839
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:20:15 +0200] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:30:59 +0200] "GET /proyecto/pagina_inicio_formulario.jsp HTTP/1.1" 200 500
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:30:59 +0200] "GET /proyecto/caballos_pupilaje/pagina_inicio_formulario.css HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:31:00 +0200] "POST /proyecto/inicio_formulario HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:31:00 +0200] "GET /proyecto/acceso_pupilaje.jsp HTTP/1.1" 200 463
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:31:07 +0200] "GET /proyecto/acceso_pupilaje?user=hectorino&password=capricho&enviar=Enviar HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:31:07 +0200] "GET /proyecto/caballo_seleccion.jsp HTTP/1.1" 200 467
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:31:09 +0200] "POST /proyecto/caballos_seleccionCM HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:31:09 +0200] "GET /proyecto/capricho.jsp HTTP/1.1" 200 886
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:31:23 +0200] "GET /proyecto/pupilaje?1=capricho&nacimiento=2000%2F02%2F14&herrado=2023%2F02%2F15&veterinario=2022%2F02%2F15&desparasitado=2021%2F02%2F15&pienso=2024%2F02%2F15&enviar=Enviar HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Apr/2023:17:31:23 +0200] "GET /proyecto/caballos_pupilaje.jsp HTTP/1.1" 500 3231
