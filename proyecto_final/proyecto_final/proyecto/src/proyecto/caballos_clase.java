@@ -74,7 +74,8 @@ public class caballos_clase extends HttpServlet {
       		out.println("<body>");
   			Statement smt=conn.createStatement();
   			String select=
-  					"select nombre,descripcion_raza,descripcion_capa from `caballos_clase` where nombre='"+nombre+"';";
+  					"select nombre,descripcion_raza,descripcion_capa from `caballos_clase` where nombre="?";";
+		actualizar.setString(1,nombre);
   			obtener=smt.executeQuery(select);
   			while(obtener.next()) {
   				name=obtener.getString("nombre");
