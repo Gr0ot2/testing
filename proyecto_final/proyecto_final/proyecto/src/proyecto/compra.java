@@ -102,10 +102,13 @@ public class compra extends HttpServlet {
           }else {
             int final_price = Integer.parseInt(amount) * price;
             insertarNuevaCantidad = conn.prepareStatement(
-              "update `compra` set cantidad='" + restantes + "' where producto='" + producto + "';");
+              "update `compra` set cantidad="?" where producto="?";");
+          insertarNuevaCantidad.setString(1,restantes);
+          insertarNuevaCantidad.setString(2,producto);
             insertarNuevaCantidad.executeUpdate();
             String datos_compras =
-              "select id,producto,cantidad,precio from `compra` where producto='" + producto + "';";
+              "select id,producto,cantidad,precio from `compra` where producto="?";";
+                  insertarNuevaCantidad.setString(1,producto);
             obtenerDatos = smt.executeQuery(datos_compras);
             while (obtenerDatos.next()) {
               id = obtenerDatos.getString("id");
@@ -133,7 +136,7 @@ public class compra extends HttpServlet {
           }
         }
       }else {
-        JOptionPane.showMessageDialog(null, "solo se permiten valores númericos por favor inserte un valor númerico");
+        JOptionPane.showMessageDialog(null, "solo se permiten valores nÃºmericos por favor inserte un valor nÃºmerico");
         response.sendRedirect("pagina_compra.jsp");
       }
     }catch (Exception e) {
