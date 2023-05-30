@@ -75,6 +75,10 @@ public class pupilaje extends HttpServlet {
 		out=response.getWriter();
 		datos_pupilaje d=(datos_pupilaje) new datos_pupilaje();
    	 ArrayList<datos_pupilaje>listas=new ArrayList<datos_pupilaje>();
+   	 ArrayList<datos_pupilaje>listas1=new ArrayList<datos_pupilaje>();
+   	 ArrayList<datos_pupilaje>listas2=new ArrayList<datos_pupilaje>();
+   	 ArrayList<datos_pupilaje>listas3=new ArrayList<datos_pupilaje>();
+
 		nombre=request.getParameter("1");
 		JOptionPane.showMessageDialog(null, nombre);
 		nacimiento=request.getParameter("nacimiento");
@@ -90,14 +94,12 @@ public class pupilaje extends HttpServlet {
   			Statement smt=conn.createStatement();
   			if(nombre.length()!=0 && nacimiento.length()!=0  && herrado.length()!=0  && veterinario.length()!=0  && desparasitado.length()!=0  && pienso.length()!=0 ) {
   			actualizar=conn.prepareStatement(
-  					"update `datos_pupilaje` set fecha_nacimiento='"+nacimiento+"',fecha_herrado='"+herrado+"',fecha_veterinario='"+veterinario+"',fecha_desparasitado='"+desparasitado+"',fecha_pienso='"+pienso+"'where id="?";"
+  					"update `datos_pupilaje` set fecha_nacimiento='"+nacimiento+"',fecha_herrado='"+herrado+"',fecha_veterinario='"+veterinario+"',fecha_desparasitado='"+desparasitado+"',fecha_pienso='"+pienso+"'where id='"+nombre+"';"
   					);
-				actualizar.setString(1,nombre);
   			actualizar.executeUpdate();
   			JOptionPane.showMessageDialog(null, "se ha actualizado");
   			String select=
-  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id="?";";
-				actualizar.setString(1,nombre);
+  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id='"+nombre+"';";
   			obtener=smt.executeQuery(select);
   			while(obtener.next()) {
   				nacimiento2=obtener.getString("fecha_nacimiento");
@@ -106,30 +108,47 @@ public class pupilaje extends HttpServlet {
 	  			desparasitado2=obtener.getString("fecha_desparasitado");
 	  			pienso2=obtener.getString("fecha_pienso");
   			}
-  			d.setFecha_nacimiento(nacimiento2);
-  			d.setFecha_herrado(herrado2);
-	  		d.setFecha_veterinario(veterinario2);
-	  		d.setFecha_desparasitado(desparasitado2);
-	  		d.setFecha_pienso(pienso2);
-	  		listas.add(d);
 	  		if(nombre.length()!=0 && nombre.equals("relampago")) {
+	  			d.setFecha_nacimiento(nacimiento2);
+	  			d.setFecha_herrado(herrado2);
+		  		d.setFecha_veterinario(veterinario2);
+		  		d.setFecha_desparasitado(desparasitado2);
+		  		d.setFecha_pienso(pienso2);
+		  		listas.add(d);
 				request.getSession().setAttribute("lista", listas);
 			response.sendRedirect("relampago.jsp");
 		  		}else if(nombre.length()!=0 && nombre.equals("capricho")) {
-					request.getSession().setAttribute("lista", listas);
+		  			d.setFecha_nacimiento(nacimiento2);
+		  			d.setFecha_herrado(herrado2);
+			  		d.setFecha_veterinario(veterinario2);
+			  		d.setFecha_desparasitado(desparasitado2);
+			  		d.setFecha_pienso(pienso2);
+			  		listas1.add(d);
+					request.getSession().setAttribute("lista1", listas1);
 					response.sendRedirect("capricho.jsp");
 	  			}else if(nombre.length()!=0 && nombre.equals("pellizco")) {
-					request.getSession().setAttribute("lista", listas);
+	  				d.setFecha_nacimiento(nacimiento2);
+	  	  			d.setFecha_herrado(herrado2);
+	  		  		d.setFecha_veterinario(veterinario2);
+	  		  		d.setFecha_desparasitado(desparasitado2);
+	  		  		d.setFecha_pienso(pienso2);
+	  		  		listas2.add(d);
+					request.getSession().setAttribute("lista2", listas2);
 					response.sendRedirect("pellizco.jsp");
 	  			}else if(nombre.length()!=0 && nombre.equals("marengo")) {
-					request.getSession().setAttribute("lista", listas);
+	  				d.setFecha_nacimiento(nacimiento2);
+	  	  			d.setFecha_herrado(herrado2);
+	  		  		d.setFecha_veterinario(veterinario2);
+	  		  		d.setFecha_desparasitado(desparasitado2);
+	  		  		d.setFecha_pienso(pienso2);
+	  		  		listas3.add(d);
+					request.getSession().setAttribute("lista3", listas3);
 					response.sendRedirect("marengo.jsp");
 	  			}
   		}else if( nacimiento.length()==0 && herrado.length()==0 && veterinario.length()==0 && desparasitado.length()==0 && pienso.length()==0) {
 				JOptionPane.showMessageDialog(null, "ha entrado aqui");
 				String select2=
-	  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id="?";";
-				actualizar.setString(1,nombre);
+	  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id='"+nombre+"';";
 	  			obtener=smt.executeQuery(select2);
 	  			while(obtener.next()) {
 	  				nacimiento2=obtener.getString("fecha_nacimiento");
@@ -138,28 +157,43 @@ public class pupilaje extends HttpServlet {
 		  			desparasitado2=obtener.getString("fecha_desparasitado");
 		  			pienso2=obtener.getString("fecha_pienso");
 	  			}
-	  			d.setFecha_nacimiento(nacimiento2);
-	  			d.setFecha_herrado(herrado2);
-	  			d.setFecha_veterinario(veterinario2);
-	  			d.setFecha_desparasitado(desparasitado2);
-		  		d.setFecha_pienso(pienso2);
-		  		listas.add(d);
-	  	if(nombre.length()!=0 && nombre.equals("relampago")) {
-			request.getSession().setAttribute("lista", listas);
-		response.sendRedirect("relampago.jsp");
-	  		}else if(nombre.length()!=0 && nombre.equals("capricho")) {
-				request.getSession().setAttribute("lista", listas);
-				response.sendRedirect("capricho.jsp");
-  			}else if(nombre.length()!=0 && nombre.equals("pellizco")) {
-				request.getSession().setAttribute("lista", listas);
-				response.sendRedirect("pellizco.jsp");
-  			}else if(nombre.length()!=0 && nombre.equals("pellizco")) {
-				request.getSession().setAttribute("lista", listas);
-				response.sendRedirect("pellizco.jsp");
-  			}else if(nombre.length()!=0 && nombre.equals("marengo")) {
-				request.getSession().setAttribute("lista", listas);
-				response.sendRedirect("marengo.jsp");
-  			}
+	  			if(nombre.length()!=0 && nombre.equals("relampago")) {
+		  			d.setFecha_nacimiento(nacimiento2);
+		  			d.setFecha_herrado(herrado2);
+			  		d.setFecha_veterinario(veterinario2);
+			  		d.setFecha_desparasitado(desparasitado2);
+			  		d.setFecha_pienso(pienso2);
+			  		listas.add(d);
+					request.getSession().setAttribute("lista", listas);
+				response.sendRedirect("relampago.jsp");
+			  		}else if(nombre.length()!=0 && nombre.equals("capricho")) {
+			  			d.setFecha_nacimiento(nacimiento2);
+			  			d.setFecha_herrado(herrado2);
+				  		d.setFecha_veterinario(veterinario2);
+				  		d.setFecha_desparasitado(desparasitado2);
+				  		d.setFecha_pienso(pienso2);
+				  		listas1.add(d);
+						request.getSession().setAttribute("lista1", listas1);
+						response.sendRedirect("capricho.jsp");
+		  			}else if(nombre.length()!=0 && nombre.equals("pellizco")) {
+		  				d.setFecha_nacimiento(nacimiento2);
+		  	  			d.setFecha_herrado(herrado2);
+		  		  		d.setFecha_veterinario(veterinario2);
+		  		  		d.setFecha_desparasitado(desparasitado2);
+		  		  		d.setFecha_pienso(pienso2);
+		  		  		listas2.add(d);
+						request.getSession().setAttribute("lista2", listas2);
+						response.sendRedirect("pellizco.jsp");
+		  			}else if(nombre.length()!=0 && nombre.equals("marengo")) {
+		  				d.setFecha_nacimiento(nacimiento2);
+		  	  			d.setFecha_herrado(herrado2);
+		  		  		d.setFecha_veterinario(veterinario2);
+		  		  		d.setFecha_desparasitado(desparasitado2);
+		  		  		d.setFecha_pienso(pienso2);
+		  		  		listas3.add(d);
+						request.getSession().setAttribute("lista3", listas3);
+						response.sendRedirect("marengo.jsp");
+		  			}
       	}
       		}catch (Exception e) {
       			JOptionPane.showMessageDialog(null, "no se ha actualizado, solo se aceptan datos en formato de fecha");
