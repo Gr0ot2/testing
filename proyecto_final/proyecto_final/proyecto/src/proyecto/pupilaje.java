@@ -7,7 +7,6 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 
 import javax.servlet.ServletConfig;
@@ -70,6 +69,8 @@ public class pupilaje extends HttpServlet {
       String desparasitado2=null;
       String pienso2=null;
       PreparedStatement actualizar;
+		PreparedStatement obtain;
+
       ResultSet obtener;
       PrintWriter out;
 		out=response.getWriter();
@@ -91,16 +92,17 @@ public class pupilaje extends HttpServlet {
       		out.println("<html>");
       		out.println("<head><title>service</title></head>");
       		out.println("<body>");
-  			Statement smt=conn.createStatement();
   			if(nombre.length()!=0 && nacimiento.length()!=0  && herrado.length()!=0  && veterinario.length()!=0  && desparasitado.length()!=0  && pienso.length()!=0 ) {
   			actualizar=conn.prepareStatement(
   					"update `datos_pupilaje` set fecha_nacimiento='"+nacimiento+"',fecha_herrado='"+herrado+"',fecha_veterinario='"+veterinario+"',fecha_desparasitado='"+desparasitado+"',fecha_pienso='"+pienso+"'where id='"+nombre+"';"
   					);
   			actualizar.executeUpdate();
   			JOptionPane.showMessageDialog(null, "se ha actualizado");
-  			String select=
-  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id='"+nombre+"';";
-  			obtener=smt.executeQuery(select);
+  			obtain=conn.prepareStatement(
+  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id=?;");
+
+  			obtain.setString(1, nombre);
+  			obtener=obtain.executeQuery();
   			while(obtener.next()) {
   				nacimiento2=obtener.getString("fecha_nacimiento");
   				herrado2=obtener.getString("fecha_herrado");
@@ -147,9 +149,11 @@ public class pupilaje extends HttpServlet {
 	  			}
   		}else if( nacimiento.length()==0 && herrado.length()==0 && veterinario.length()==0 && desparasitado.length()==0 && pienso.length()==0) {
 				JOptionPane.showMessageDialog(null, "ha entrado aqui");
-				String select2=
-	  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id='"+nombre+"';";
-	  			obtener=smt.executeQuery(select2);
+				obtain=conn.prepareStatement(
+	  					"select fecha_nacimiento,fecha_herrado,fecha_veterinario,fecha_desparasitado,fecha_pienso from `datos_pupilaje` where id=?;");
+
+	  			obtain.setString(1, nombre);
+	  			obtener=obtain.executeQuery();
 	  			while(obtener.next()) {
 	  				nacimiento2=obtener.getString("fecha_nacimiento");
 	  				herrado2=obtener.getString("fecha_herrado");
